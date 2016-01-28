@@ -1,0 +1,11 @@
+let g:CCTreeKeyTraceForwardTree = '<F8>' 
+let g:CCTreeKeyTraceReverseTree = '<F7>'
+let g:spf13_no_autochdir = 1
+let g:spf13_no_omni_complete = 1
+let g:spf13_no_neosnippet_expand = 1
+let g:clang_user_options='|| exit 0'
+ let g:ycm_collect_identifiers_from_tags_files = 1
+set tags+=./.tags
+map <F11> :!cscope -b<CR>:cs reset<CR><CR>
+
+let g:solarized_contrast = 'high'
