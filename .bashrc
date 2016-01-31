@@ -248,3 +248,4 @@ fi
 if [ -f /etc/bashrc ] ; then
     . /etc/bashrc
 fi
+PS1='[\u@\h \W$(__git_ps1 " (%s)")]\$'
