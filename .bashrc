@@ -1,6 +1,6 @@
 source ~/.git-prompt.sh
 alias ddd='cvsdiff'
-alias gr='grep -rnIi --exclude="tags" --exclude="cscope*"'
+alias gr='grep -rnIi --exclude="tags" --exclude="cscope*" --exclude="*.xml" --exclude="*.html"'
 alias gitlog='git log --graph --oneline --decorate'
 export DIFFPROG='g -df '
 
